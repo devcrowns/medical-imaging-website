@@ -182,6 +182,9 @@ For technical support or customization requests:
 
 This project is proprietary software for Qube Medical System.
 
+## Author
+
+DevCrown Technologies
 ---
 
 Built with ❤️ using Next.js and modern web technologies.
