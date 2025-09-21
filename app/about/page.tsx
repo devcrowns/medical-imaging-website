@@ -1,9 +1,9 @@
+import { Footer } from "@/components/footer"
 import { Navigation } from "@/components/navigation"
-import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Award, Users, Globe, Shield, Target, Heart, CheckCircle } from "lucide-react"
-import { Footer } from "@/components/footer"
+import { Card, CardContent } from "@/components/ui/card"
+import { Award, CheckCircle, Globe, Heart, Shield, Target, Users } from "lucide-react"
 
 const milestones = [
   { year: "1995", event: "Company founded with focus on medical imaging" },
@@ -68,7 +68,7 @@ export default function AboutPage() {
                 Leading Medical Imaging Excellence for <span className="text-primary">Over 25 Years</span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed text-pretty">
-                MedImaging Pro has been at the forefront of medical imaging technology, providing healthcare facilities
+                Qube Medical System has been at the forefront of medical imaging technology, providing healthcare facilities
                 worldwide with cutting-edge CT scanners, MRI machines, and comprehensive support services.
               </p>
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
@@ -84,7 +84,7 @@ export default function AboutPage() {
               <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-card border border-border">
                 <img
                   src="/placeholder.svg?key=about-hero"
-                  alt="MedImaging Pro team and facilities"
+                  alt="Qube Medical System team and facilities"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -257,7 +257,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
           <h2 className="text-3xl font-bold text-primary-foreground text-balance">Ready to Partner with Us?</h2>
           <p className="text-xl text-primary-foreground/90 text-pretty">
-            Join hundreds of healthcare facilities worldwide who trust MedImaging Pro for their imaging needs.
+            Join hundreds of healthcare facilities worldwide who trust Qube Medical System for their imaging needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary">

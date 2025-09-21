@@ -47,45 +47,45 @@ Qube Medical System is a comprehensive medical imaging equipment company offerin
 ## 🛠️ Installation & Setup
 
 ### 1. Clone or Download Project
-\`\`\`bash
+```bash
 # If using Git
 git clone <repository-url>
 cd qube-medical-website
 
 # Or download ZIP from v0 interface (three dots → Download ZIP)
-\`\`\`
+```
 
 ### 2. Install Dependencies
-\`\`\`bash
+```bash
 pnpm install
-\`\`\`
+```
 
 ### 3. Environment Variables (Optional)
 Create a `.env.local` file for email functionality:
-\`\`\`env
+```env
 # Email Service (Optional - for contact form emails)
 RESEND_API_KEY=your_resend_api_key_here
 
 # WhatsApp Business Number (Update in components/whatsapp-bubble.tsx)
 WHATSAPP_PHONE=1234567890
-\`\`\`
+```
 
 ### 4. Run Development Server
-\`\`\`bash
+```bash
 pnpm dev
-\`\`\`
+```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### 5. Build for Production
-\`\`\`bash
+```bash
 pnpm build
 pnpm start
-\`\`\`
+```
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 qube-medical-website/
 ├── app/                    # Next.js App Router pages
 │   ├── about/             # About us page
@@ -110,7 +110,7 @@ qube-medical-website/
 ├── lib/                   # Utility functions
 ├── public/                # Static assets (images, logos)
 └── hooks/                 # Custom React hooks
-\`\`\`
+```
 
 ## 🌐 Deployment
 
@@ -119,10 +119,10 @@ qube-medical-website/
 2. Or connect GitHub repository to Vercel dashboard
 
 ### Manual Deployment
-\`\`\`bash
+```bash
 pnpm build
 # Deploy the .next folder to your hosting provider
-\`\`\`
+```
 
 ## ✨ Key Features
 
@@ -150,13 +150,13 @@ The contact forms can send emails using Resend service:
 
 ### Colors
 Update design tokens in `app/globals.css`:
-\`\`\`css
+```css
 :root {
   --primary: 210 100% 50%;        /* Blue primary */
   --secondary: 210 20% 95%;       /* Light gray */
   --accent: 142 76% 36%;          /* Green accent */
 }
-\`\`\`
+```
 
 ### Company Information
 Update company details in:

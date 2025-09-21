@@ -1,7 +1,7 @@
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Phone, Mail, MapPin, Facebook, Twitter, Linkedin, Youtube } from "lucide-react"
+import { Facebook, Linkedin, Mail, MapPin, Phone, Twitter, Youtube } from "lucide-react"
+import Link from "next/link"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -17,7 +17,7 @@ export function Footer() {
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-lg">MI</span>
               </div>
-              <span className="ml-3 text-xl font-bold text-card-foreground">MedImaging Pro</span>
+              <span className="ml-3 text-xl font-bold text-card-foreground">Qube Medical System</span>
             </div>
             <p className="text-muted-foreground text-pretty">
               Leading provider of medical imaging solutions with over 25 years of experience in CT scanners, MRI
@@ -26,7 +26,7 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-sm">
                 <Phone className="w-4 h-4 text-primary" />
-                <span className="text-muted-foreground">+1 (555) 123-4567</span>
+                <span className="text-muted-foreground">+91 8681065538</span>
               </div>
               <div className="flex items-center gap-3 text-sm">
                 <Mail className="w-4 h-4 text-primary" />
@@ -150,7 +150,7 @@ export function Footer() {
                   Cookie Policy
                 </Link>
               </div>
-              <div>© {currentYear} MedImaging Pro. All rights reserved.</div>
+              <div>© {currentYear} DevCrown Technologies. All rights reserved.</div>
             </div>
           </div>
         </div>

@@ -2,23 +2,23 @@
 
 import type React from "react"
 
-import { useState, useEffect } from "react"
-import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Navigation } from "@/components/navigation"
 import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Textarea } from "@/components/ui/textarea"
 import { useToast } from "@/hooks/use-toast"
-import { Phone, Mail, MapPin, Clock, MessageSquare, Wrench, Send } from "lucide-react"
+import { Clock, Mail, MapPin, MessageSquare, Phone, Send, Wrench } from "lucide-react"
+import { useEffect, useState } from "react"
 
 const contactInfo = [
   {
     icon: Phone,
     title: "Phone Support",
-    details: ["+1 (555) 123-4567", "24/7 Emergency: +1 (555) 911-HELP"],
+    details: ["+91 8681065538", "24/7 Emergency: +1 (555) 911-HELP"],
     description: "Speak directly with our experts",
   },
   {
@@ -245,7 +245,7 @@ export default function ContactPage() {
     const message = encodeURIComponent(
       "Hello! I'm interested in learning more about your medical imaging equipment and services.",
     )
-    window.open(`https://wa.me/15551234567?text=${message}`, "_blank")
+    window.open(`https://wa.me/918681065538?text=${message}`, "_blank")
   }
 
   return (
@@ -554,9 +554,9 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <Button size="sm" className="w-full" asChild>
-                    <a href="tel:+15551234567">
+                    <a href="tel:+918681065538">
                       <Phone className="w-4 h-4 mr-2" />
-                      Call Now: +1 (555) 123-4567
+                      Call Now: +91 8681065538
                     </a>
                   </Button>
                   <Button

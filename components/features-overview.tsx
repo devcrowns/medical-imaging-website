@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Stethoscope, Wrench, HeadphonesIcon, Download } from "lucide-react"
+import { Download, HeadphonesIcon, Stethoscope, Wrench } from "lucide-react"
 
 export function FeaturesOverview() {
   const features = [
@@ -33,7 +33,7 @@ export function FeaturesOverview() {
     <section className="py-20 bg-muted/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-foreground text-balance">Why Choose MedImaging Pro?</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-foreground text-balance">Why Choose Qube Medical System?</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-pretty">
             We provide comprehensive medical imaging solutions with unmatched expertise, quality equipment, and
             dedicated support services.

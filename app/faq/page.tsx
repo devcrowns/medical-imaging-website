@@ -1,12 +1,12 @@
 "use client"
 
-import { useState } from "react"
 import { Navigation } from "@/components/navigation"
-import { Card, CardContent } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
+import { Card, CardContent } from "@/components/ui/card"
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
-import { ChevronDown, Search, MessageSquare, Phone } from "lucide-react"
+import { Input } from "@/components/ui/input"
+import { ChevronDown, MessageSquare, Phone, Search } from "lucide-react"
+import { useState } from "react"
 
 const faqCategories = [
   {
@@ -225,7 +225,7 @@ export default function FAQPage() {
             </Button>
             <Button size="lg" variant="outline">
               <Phone className="w-5 h-5 mr-2" />
-              Call: +1 (555) 123-4567
+              Call: +91 8681065538
             </Button>
           </div>
         </div>

@@ -1,9 +1,9 @@
+import { Footer } from "@/components/footer"
 import { Navigation } from "@/components/navigation"
-import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Building2, Users, TrendingUp, Clock, CheckCircle, ArrowRight, Star } from "lucide-react"
-import { Footer } from "@/components/footer"
+import { Card, CardContent } from "@/components/ui/card"
+import { ArrowRight, Building2, CheckCircle, Clock, Star, TrendingUp, Users } from "lucide-react"
 
 const caseStudies = [
   {
@@ -24,7 +24,7 @@ const caseStudies = [
     ],
     testimonial: {
       quote:
-        "MedImaging Pro's expertise and support throughout the installation process was exceptional. The new equipment has transformed our diagnostic capabilities.",
+        "Qube Medical System's expertise and support throughout the installation process was exceptional. The new equipment has transformed our diagnostic capabilities.",
       author: "Dr. Sarah Johnson",
       role: "Chief of Radiology",
     },

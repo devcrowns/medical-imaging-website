@@ -1,12 +1,12 @@
 "use client"
 
-import { MessageCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { MessageCircle } from "lucide-react"
 
 export function WhatsAppBubble() {
   const handleWhatsAppClick = () => {
     console.log("[v0] WhatsApp bubble clicked")
-    const phoneNumber = "1234567890" // Replace with actual WhatsApp business number (without + or spaces)
+    const phoneNumber = "918681065538" // Replace with actual WhatsApp business number (without + or spaces)
     const message = encodeURIComponent(
       "Hello! I would like to inquire about Qube Medical System's medical imaging equipment.",
     )

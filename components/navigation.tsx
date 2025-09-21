@@ -1,9 +1,9 @@
 "use client"
 
-import { useState } from "react"
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Menu, X, Phone } from "lucide-react"
+import { Menu, Phone, X } from "lucide-react"
+import Link from "next/link"
+import { useState } from "react"
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -39,7 +39,7 @@ export function Navigation() {
           <div className="hidden lg:flex items-center space-x-4 absolute right-4">
             <div className="flex items-center space-x-2 text-sm text-muted-foreground">
               <Phone className="w-4 h-4" />
-              <span>+1 (555) 123-4567</span>
+              <span>+91 8681065538</span>
             </div>
             <Button size="sm" className="bg-secondary hover:bg-secondary/90" onClick={handleRequestQuote}>
               Request Quote
@@ -88,7 +88,7 @@ export function Navigation() {
             <div className="pt-4 pb-2 border-t border-border mt-4">
               <div className="flex items-center space-x-2 px-3 py-2 text-sm text-muted-foreground">
                 <Phone className="w-4 h-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 8681065538</span>
               </div>
               <div className="px-3 py-2">
                 <Button size="sm" className="w-full bg-secondary hover:bg-secondary/90" onClick={handleRequestQuote}>
