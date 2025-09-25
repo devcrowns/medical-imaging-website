@@ -125,7 +125,7 @@ const caseStudies = [
 ]
 
 const successMetrics = [
-  { metric: "1000+", label: "Successful Installations" },
+  { metric: "50+", label: "Successful Installations" },
   { metric: "99.8%", label: "Average System Uptime" },
   { metric: "95%", label: "Customer Satisfaction" },
   { metric: "40+", label: "Countries Served" },

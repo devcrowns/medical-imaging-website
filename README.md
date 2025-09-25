@@ -176,7 +176,7 @@ Update company details in:
 For technical support or customization requests:
 - Email: support@qubemedical.com
 - WhatsApp: Available on all pages
-- Phone: +1 (555) 123-4567
+- Phone: +91 80722 19834
 
 ## 📄 License
 

@@ -1,9 +1,9 @@
-import { Navigation } from "@/components/navigation"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { Wrench, Settings, Shield, Truck, GraduationCap, Clock, CheckCircle, Phone, Calendar } from "lucide-react"
 import { Footer } from "@/components/footer"
+import { Navigation } from "@/components/navigation"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Calendar, CheckCircle, Clock, GraduationCap, Phone, Settings, Shield, Truck, Wrench } from "lucide-react"
 
 const services = [
   {
@@ -88,7 +88,7 @@ const services = [
 ]
 
 const serviceStats = [
-  { number: "500+", label: "Installations Completed" },
+  { number: "50+", label: "Installations Completed" },
   { number: "99.9%", label: "Uptime Guarantee" },
   { number: "24/7", label: "Support Available" },
   { number: "< 4hrs", label: "Average Response Time" },

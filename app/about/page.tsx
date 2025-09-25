@@ -3,7 +3,7 @@ import { Navigation } from "@/components/navigation"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Award, CheckCircle, Globe, Heart, Shield, Target, Users } from "lucide-react"
+import { CheckCircle, Globe, Heart, Target, Users } from "lucide-react"
 
 const milestones = [
   { year: "1995", event: "Company founded with focus on medical imaging" },
@@ -16,26 +16,26 @@ const milestones = [
 ]
 
 const certifications = [
-  {
-    name: "ISO 13485",
-    description: "Medical Device Quality Management",
-    icon: Shield,
-  },
-  {
-    name: "FDA Approved",
-    description: "US Food and Drug Administration",
-    icon: Award,
-  },
-  {
-    name: "CE Marking",
-    description: "European Conformity Standards",
-    icon: CheckCircle,
-  },
-  {
-    name: "Health Canada",
-    description: "Canadian Medical Device License",
-    icon: Shield,
-  },
+  // {
+  //   name: "ISO 13485",
+  //   description: "Medical Device Quality Management",
+  //   icon: Shield,
+  // },
+  // {
+  //   name: "FDA Approved",
+  //   description: "US Food and Drug Administration",
+  //   icon: Award,
+  // },
+  // {
+  //   name: "CE Marking",
+  //   description: "European Conformity Standards",
+  //   icon: CheckCircle,
+  // },
+  // {
+  //   name: "Health Canada",
+  //   description: "Canadian Medical Device License",
+  //   icon: Shield,
+  // },
 ]
 
 const teamStats = [

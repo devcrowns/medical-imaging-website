@@ -18,7 +18,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone Support",
-    details: ["+91 8681065538", "24/7 Emergency: +1 (555) 911-HELP"],
+    details: ["+91 8072219834", "24/7 Emergency: +1 (555) 911-HELP"],
     description: "Speak directly with our experts",
   },
   {
@@ -556,7 +556,7 @@ export default function ContactPage() {
                   <Button size="sm" className="w-full" asChild>
                     <a href="tel:+918681065538">
                       <Phone className="w-4 h-4 mr-2" />
-                      Call Now: +91 8681065538
+                      Call Now: +91 8072219834
                     </a>
                   </Button>
                   <Button

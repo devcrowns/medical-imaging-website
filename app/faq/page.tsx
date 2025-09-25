@@ -225,7 +225,7 @@ export default function FAQPage() {
             </Button>
             <Button size="lg" variant="outline">
               <Phone className="w-5 h-5 mr-2" />
-              Call: +91 8681065538
+              Call: +91 8072219834
             </Button>
           </div>
         </div>
