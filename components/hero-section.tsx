@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Award, Shield, Users } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 
 export function HeroSection() {
@@ -26,7 +26,7 @@ export function HeroSection() {
             </div>
 
             {/* Trust Indicators */}
-            <div className="flex flex-wrap gap-6 text-sm text-muted-foreground">
+            {/* <div className="flex flex-wrap gap-6 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Shield className="w-5 h-5 text-secondary" />
                  <span>ISO 13485 Certified</span>
@@ -39,7 +39,7 @@ export function HeroSection() {
                 <Users className="w-5 h-5 text-secondary" />
                 <span>50+ Installations</span>
               </div>
-            </div>
+            </div> */}
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
